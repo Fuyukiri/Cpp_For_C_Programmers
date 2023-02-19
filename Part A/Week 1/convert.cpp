@@ -5,7 +5,7 @@ const int N = 40;
 
 // inline sum function, take 2 parameters
 // sum as the result of sum, data as input array
-inline void sum(int& sum, std::vector<int> data)
+inline void sum(int &sum, std::vector<int> data)
 {
     for (int i = 0; i < data.size(); ++i)
         sum += data[i];
